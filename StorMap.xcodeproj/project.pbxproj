@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D883F3B51E6984FB00546D4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883F3B41E6984FB00546D4E /* AppDelegate.swift */; };
+		D883F3B71E6984FB00546D4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883F3B61E6984FB00546D4E /* ViewController.swift */; };
+		D883F3BA1E6984FB00546D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D883F3B81E6984FB00546D4E /* Main.storyboard */; };
+		D883F3BC1E6984FB00546D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D883F3BB1E6984FB00546D4E /* Assets.xcassets */; };
+		D883F3BF1E6984FB00546D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D883F3BD1E6984FB00546D4E /* LaunchScreen.storyboard */; };
+		D883F3CA1E6984FB00546D4E /* StorMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883F3C91E6984FB00546D4E /* StorMapTests.swift */; };
+		D883F3D51E6984FB00546D4E /* StorMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883F3D41E6984FB00546D4E /* StorMapUITests.swift */; };
+		D8EE286C1E71C7390065870A /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE286A1E70008A0065870A /* RegisterPageViewController.swift */; };
+		D8EE286E1E725CFC0065870A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE286D1E725CFC0065870A /* LoginViewController.swift */; };
+		D8EE28711E7308410065870A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EE28701E7308410065870A /* libsqlite3.tbd */; };
+		D8EE28741E730A130065870A /* SQLiteConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE28731E730A130065870A /* SQLiteConnect.swift */; };
+		D8EE28761E730B5B0065870A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE28751E730B5B0065870A /* FirstViewController.swift */; };
+		D8EE28781E740E130065870A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE28771E740E130065870A /* HomeViewController.swift */; };
+		D8EE287A1E74707B0065870A /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE28791E74707B0065870A /* MoreViewController.swift */; };
+		D8EE287C1E7470940065870A /* MyStoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE287B1E7470940065870A /* MyStoryController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D883F3C61E6984FB00546D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D883F3A91E6984FB00546D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D883F3B01E6984FB00546D4E;
+			remoteInfo = StorMap;
+		};
+		D883F3D11E6984FB00546D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D883F3A91E6984FB00546D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D883F3B01E6984FB00546D4E;
+			remoteInfo = StorMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D883F3B11E6984FB00546D4E /* StorMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D883F3B41E6984FB00546D4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D883F3B61E6984FB00546D4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D883F3B91E6984FB00546D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D883F3BB1E6984FB00546D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D883F3BE1E6984FB00546D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D883F3C01E6984FB00546D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D883F3C51E6984FB00546D4E /* StorMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D883F3C91E6984FB00546D4E /* StorMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorMapTests.swift; sourceTree = "<group>"; };
+		D883F3CB1E6984FB00546D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D883F3D01E6984FB00546D4E /* StorMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D883F3D41E6984FB00546D4E /* StorMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorMapUITests.swift; sourceTree = "<group>"; };
+		D883F3D61E6984FB00546D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8EE286A1E70008A0065870A /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		D8EE286D1E725CFC0065870A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D8EE28701E7308410065870A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D8EE28721E7309390065870A /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		D8EE28731E730A130065870A /* SQLiteConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteConnect.swift; sourceTree = "<group>"; };
+		D8EE28751E730B5B0065870A /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D8EE28771E740E130065870A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D8EE28791E74707B0065870A /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		D8EE287B1E7470940065870A /* MyStoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStoryController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D883F3AE1E6984FB00546D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EE28711E7308410065870A /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D883F3C21E6984FB00546D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D883F3CD1E6984FB00546D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D883F3A81E6984FB00546D4E = {
+			isa = PBXGroup;
+			children = (
+				D883F3B31E6984FB00546D4E /* StorMap */,
+				D883F3C81E6984FB00546D4E /* StorMapTests */,
+				D883F3D31E6984FB00546D4E /* StorMapUITests */,
+				D883F3B21E6984FB00546D4E /* Products */,
+				D8EE286F1E7308400065870A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D883F3B21E6984FB00546D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D883F3B11E6984FB00546D4E /* StorMap.app */,
+				D883F3C51E6984FB00546D4E /* StorMapTests.xctest */,
+				D883F3D01E6984FB00546D4E /* StorMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D883F3B31E6984FB00546D4E /* StorMap */ = {
+			isa = PBXGroup;
+			children = (
+				D883F3B41E6984FB00546D4E /* AppDelegate.swift */,
+				D883F3B61E6984FB00546D4E /* ViewController.swift */,
+				D883F3B81E6984FB00546D4E /* Main.storyboard */,
+				D883F3BB1E6984FB00546D4E /* Assets.xcassets */,
+				D883F3BD1E6984FB00546D4E /* LaunchScreen.storyboard */,
+				D883F3C01E6984FB00546D4E /* Info.plist */,
+				D8EE286A1E70008A0065870A /* RegisterPageViewController.swift */,
+				D8EE286D1E725CFC0065870A /* LoginViewController.swift */,
+				D8EE28721E7309390065870A /* BridgeHeader.h */,
+				D8EE28731E730A130065870A /* SQLiteConnect.swift */,
+				D8EE28751E730B5B0065870A /* FirstViewController.swift */,
+				D8EE28771E740E130065870A /* HomeViewController.swift */,
+				D8EE28791E74707B0065870A /* MoreViewController.swift */,
+				D8EE287B1E7470940065870A /* MyStoryController.swift */,
+			);
+			path = StorMap;
+			sourceTree = "<group>";
+		};
+		D883F3C81E6984FB00546D4E /* StorMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D883F3C91E6984FB00546D4E /* StorMapTests.swift */,
+				D883F3CB1E6984FB00546D4E /* Info.plist */,
+			);
+			path = StorMapTests;
+			sourceTree = "<group>";
+		};
+		D883F3D31E6984FB00546D4E /* StorMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D883F3D41E6984FB00546D4E /* StorMapUITests.swift */,
+				D883F3D61E6984FB00546D4E /* Info.plist */,
+			);
+			path = StorMapUITests;
+			sourceTree = "<group>";
+		};
+		D8EE286F1E7308400065870A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE28701E7308410065870A /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D883F3B01E6984FB00546D4E /* StorMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D883F3D91E6984FB00546D4E /* Build configuration list for PBXNativeTarget "StorMap" */;
+			buildPhases = (
+				D883F3AD1E6984FB00546D4E /* Sources */,
+				D883F3AE1E6984FB00546D4E /* Frameworks */,
+				D883F3AF1E6984FB00546D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorMap;
+			productName = StorMap;
+			productReference = D883F3B11E6984FB00546D4E /* StorMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D883F3C41E6984FB00546D4E /* StorMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D883F3DC1E6984FB00546D4E /* Build configuration list for PBXNativeTarget "StorMapTests" */;
+			buildPhases = (
+				D883F3C11E6984FB00546D4E /* Sources */,
+				D883F3C21E6984FB00546D4E /* Frameworks */,
+				D883F3C31E6984FB00546D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D883F3C71E6984FB00546D4E /* PBXTargetDependency */,
+			);
+			name = StorMapTests;
+			productName = StorMapTests;
+			productReference = D883F3C51E6984FB00546D4E /* StorMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D883F3CF1E6984FB00546D4E /* StorMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D883F3DF1E6984FB00546D4E /* Build configuration list for PBXNativeTarget "StorMapUITests" */;
+			buildPhases = (
+				D883F3CC1E6984FB00546D4E /* Sources */,
+				D883F3CD1E6984FB00546D4E /* Frameworks */,
+				D883F3CE1E6984FB00546D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D883F3D21E6984FB00546D4E /* PBXTargetDependency */,
+			);
+			name = StorMapUITests;
+			productName = StorMapUITests;
+			productReference = D883F3D01E6984FB00546D4E /* StorMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D883F3A91E6984FB00546D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "林楷翊";
+				TargetAttributes = {
+					D883F3B01E6984FB00546D4E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D883F3C41E6984FB00546D4E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D883F3B01E6984FB00546D4E;
+					};
+					D883F3CF1E6984FB00546D4E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D883F3B01E6984FB00546D4E;
+					};
+				};
+			};
+			buildConfigurationList = D883F3AC1E6984FB00546D4E /* Build configuration list for PBXProject "StorMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D883F3A81E6984FB00546D4E;
+			productRefGroup = D883F3B21E6984FB00546D4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D883F3B01E6984FB00546D4E /* StorMap */,
+				D883F3C41E6984FB00546D4E /* StorMapTests */,
+				D883F3CF1E6984FB00546D4E /* StorMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D883F3AF1E6984FB00546D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D883F3BF1E6984FB00546D4E /* LaunchScreen.storyboard in Resources */,
+				D883F3BC1E6984FB00546D4E /* Assets.xcassets in Resources */,
+				D883F3BA1E6984FB00546D4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D883F3C31E6984FB00546D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D883F3CE1E6984FB00546D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D883F3AD1E6984FB00546D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EE28781E740E130065870A /* HomeViewController.swift in Sources */,
+				D8EE28741E730A130065870A /* SQLiteConnect.swift in Sources */,
+				D8EE286E1E725CFC0065870A /* LoginViewController.swift in Sources */,
+				D8EE287C1E7470940065870A /* MyStoryController.swift in Sources */,
+				D883F3B71E6984FB00546D4E /* ViewController.swift in Sources */,
+				D8EE28761E730B5B0065870A /* FirstViewController.swift in Sources */,
+				D8EE287A1E74707B0065870A /* MoreViewController.swift in Sources */,
+				D883F3B51E6984FB00546D4E /* AppDelegate.swift in Sources */,
+				D8EE286C1E71C7390065870A /* RegisterPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D883F3C11E6984FB00546D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D883F3CA1E6984FB00546D4E /* StorMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D883F3CC1E6984FB00546D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D883F3D51E6984FB00546D4E /* StorMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D883F3C71E6984FB00546D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D883F3B01E6984FB00546D4E /* StorMap */;
+			targetProxy = D883F3C61E6984FB00546D4E /* PBXContainerItemProxy */;
+		};
+		D883F3D21E6984FB00546D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D883F3B01E6984FB00546D4E /* StorMap */;
+			targetProxy = D883F3D11E6984FB00546D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D883F3B81E6984FB00546D4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D883F3B91E6984FB00546D4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D883F3BD1E6984FB00546D4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D883F3BE1E6984FB00546D4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D883F3D71E6984FB00546D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D883F3D81E6984FB00546D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D883F3DA1E6984FB00546D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StorMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StorMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = StorMap/BridgeHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D883F3DB1E6984FB00546D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StorMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StorMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = StorMap/BridgeHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D883F3DD1E6984FB00546D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StorMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StorMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorMap.app/StorMap";
+			};
+			name = Debug;
+		};
+		D883F3DE1E6984FB00546D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StorMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StorMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorMap.app/StorMap";
+			};
+			name = Release;
+		};
+		D883F3E01E6984FB00546D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StorMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StorMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StorMap;
+			};
+			name = Debug;
+		};
+		D883F3E11E6984FB00546D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StorMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StorMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StorMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D883F3AC1E6984FB00546D4E /* Build configuration list for PBXProject "StorMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D883F3D71E6984FB00546D4E /* Debug */,
+				D883F3D81E6984FB00546D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D883F3D91E6984FB00546D4E /* Build configuration list for PBXNativeTarget "StorMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D883F3DA1E6984FB00546D4E /* Debug */,
+				D883F3DB1E6984FB00546D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D883F3DC1E6984FB00546D4E /* Build configuration list for PBXNativeTarget "StorMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D883F3DD1E6984FB00546D4E /* Debug */,
+				D883F3DE1E6984FB00546D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D883F3DF1E6984FB00546D4E /* Build configuration list for PBXNativeTarget "StorMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D883F3E01E6984FB00546D4E /* Debug */,
+				D883F3E11E6984FB00546D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D883F3A91E6984FB00546D4E /* Project object */;
+}
