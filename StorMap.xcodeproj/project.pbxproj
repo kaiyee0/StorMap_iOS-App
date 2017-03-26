@@ -14,6 +14,19 @@
 		D883F3BF1E6984FB00546D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D883F3BD1E6984FB00546D4E /* LaunchScreen.storyboard */; };
 		D883F3CA1E6984FB00546D4E /* StorMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883F3C91E6984FB00546D4E /* StorMapTests.swift */; };
 		D883F3D51E6984FB00546D4E /* StorMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D883F3D41E6984FB00546D4E /* StorMapUITests.swift */; };
+		D8B12E2D1E84231500AEA231 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E211E84231500AEA231 /* add.png */; };
+		D8B12E2E1E84231500AEA231 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E221E84231500AEA231 /* add@2x.png */; };
+		D8B12E2F1E84231500AEA231 /* add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E231E84231500AEA231 /* add@3x.png */; };
+		D8B12E301E84231500AEA231 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E241E84231500AEA231 /* next.png */; };
+		D8B12E311E84231500AEA231 /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E251E84231500AEA231 /* next@2x.png */; };
+		D8B12E321E84231500AEA231 /* next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E261E84231500AEA231 /* next@3x.png */; };
+		D8B12E331E84231500AEA231 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E271E84231500AEA231 /* prev.png */; };
+		D8B12E341E84231500AEA231 /* prev@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E281E84231500AEA231 /* prev@2x.png */; };
+		D8B12E351E84231500AEA231 /* prev@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E291E84231500AEA231 /* prev@3x.png */; };
+		D8B12E361E84231500AEA231 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E2A1E84231500AEA231 /* settings.png */; };
+		D8B12E371E84231500AEA231 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E2B1E84231500AEA231 /* settings@2x.png */; };
+		D8B12E381E84231500AEA231 /* settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B12E2C1E84231500AEA231 /* settings@3x.png */; };
+		D8B12E3A1E843B8500AEA231 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B12E391E843B8500AEA231 /* AddViewController.swift */; };
 		D8EE286C1E71C7390065870A /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE286A1E70008A0065870A /* RegisterPageViewController.swift */; };
 		D8EE286E1E725CFC0065870A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE286D1E725CFC0065870A /* LoginViewController.swift */; };
 		D8EE28711E7308410065870A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EE28701E7308410065870A /* libsqlite3.tbd */; };
@@ -55,6 +68,19 @@
 		D883F3D01E6984FB00546D4E /* StorMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D883F3D41E6984FB00546D4E /* StorMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorMapUITests.swift; sourceTree = "<group>"; };
 		D883F3D61E6984FB00546D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B12E211E84231500AEA231 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = icons/add.png; sourceTree = "<group>"; };
+		D8B12E221E84231500AEA231 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@2x.png"; path = "icons/add@2x.png"; sourceTree = "<group>"; };
+		D8B12E231E84231500AEA231 /* add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@3x.png"; path = "icons/add@3x.png"; sourceTree = "<group>"; };
+		D8B12E241E84231500AEA231 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = icons/next.png; sourceTree = "<group>"; };
+		D8B12E251E84231500AEA231 /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "next@2x.png"; path = "icons/next@2x.png"; sourceTree = "<group>"; };
+		D8B12E261E84231500AEA231 /* next@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "next@3x.png"; path = "icons/next@3x.png"; sourceTree = "<group>"; };
+		D8B12E271E84231500AEA231 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prev.png; path = icons/prev.png; sourceTree = "<group>"; };
+		D8B12E281E84231500AEA231 /* prev@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "prev@2x.png"; path = "icons/prev@2x.png"; sourceTree = "<group>"; };
+		D8B12E291E84231500AEA231 /* prev@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "prev@3x.png"; path = "icons/prev@3x.png"; sourceTree = "<group>"; };
+		D8B12E2A1E84231500AEA231 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = icons/settings.png; sourceTree = "<group>"; };
+		D8B12E2B1E84231500AEA231 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@2x.png"; path = "icons/settings@2x.png"; sourceTree = "<group>"; };
+		D8B12E2C1E84231500AEA231 /* settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@3x.png"; path = "icons/settings@3x.png"; sourceTree = "<group>"; };
+		D8B12E391E843B8500AEA231 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		D8EE286A1E70008A0065870A /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		D8EE286D1E725CFC0065870A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D8EE28701E7308410065870A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -116,6 +142,7 @@
 		D883F3B31E6984FB00546D4E /* StorMap */ = {
 			isa = PBXGroup;
 			children = (
+				D8B12E201E8422EE00AEA231 /* icons */,
 				D883F3B41E6984FB00546D4E /* AppDelegate.swift */,
 				D883F3B61E6984FB00546D4E /* ViewController.swift */,
 				D883F3B81E6984FB00546D4E /* Main.storyboard */,
@@ -130,6 +157,7 @@
 				D8EE28771E740E130065870A /* HomeViewController.swift */,
 				D8EE28791E74707B0065870A /* MoreViewController.swift */,
 				D8EE287B1E7470940065870A /* MyStoryController.swift */,
+				D8B12E391E843B8500AEA231 /* AddViewController.swift */,
 			);
 			path = StorMap;
 			sourceTree = "<group>";
@@ -150,6 +178,25 @@
 				D883F3D61E6984FB00546D4E /* Info.plist */,
 			);
 			path = StorMapUITests;
+			sourceTree = "<group>";
+		};
+		D8B12E201E8422EE00AEA231 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				D8B12E211E84231500AEA231 /* add.png */,
+				D8B12E221E84231500AEA231 /* add@2x.png */,
+				D8B12E231E84231500AEA231 /* add@3x.png */,
+				D8B12E241E84231500AEA231 /* next.png */,
+				D8B12E251E84231500AEA231 /* next@2x.png */,
+				D8B12E261E84231500AEA231 /* next@3x.png */,
+				D8B12E271E84231500AEA231 /* prev.png */,
+				D8B12E281E84231500AEA231 /* prev@2x.png */,
+				D8B12E291E84231500AEA231 /* prev@3x.png */,
+				D8B12E2A1E84231500AEA231 /* settings.png */,
+				D8B12E2B1E84231500AEA231 /* settings@2x.png */,
+				D8B12E2C1E84231500AEA231 /* settings@3x.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 		D8EE286F1E7308400065870A /* Frameworks */ = {
@@ -267,9 +314,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B12E301E84231500AEA231 /* next.png in Resources */,
 				D883F3BF1E6984FB00546D4E /* LaunchScreen.storyboard in Resources */,
+				D8B12E2E1E84231500AEA231 /* add@2x.png in Resources */,
+				D8B12E341E84231500AEA231 /* prev@2x.png in Resources */,
 				D883F3BC1E6984FB00546D4E /* Assets.xcassets in Resources */,
+				D8B12E2F1E84231500AEA231 /* add@3x.png in Resources */,
 				D883F3BA1E6984FB00546D4E /* Main.storyboard in Resources */,
+				D8B12E331E84231500AEA231 /* prev.png in Resources */,
+				D8B12E2D1E84231500AEA231 /* add.png in Resources */,
+				D8B12E371E84231500AEA231 /* settings@2x.png in Resources */,
+				D8B12E311E84231500AEA231 /* next@2x.png in Resources */,
+				D8B12E361E84231500AEA231 /* settings.png in Resources */,
+				D8B12E351E84231500AEA231 /* prev@3x.png in Resources */,
+				D8B12E381E84231500AEA231 /* settings@3x.png in Resources */,
+				D8B12E321E84231500AEA231 /* next@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B12E3A1E843B8500AEA231 /* AddViewController.swift in Sources */,
 				D8EE28781E740E130065870A /* HomeViewController.swift in Sources */,
 				D8EE28741E730A130065870A /* SQLiteConnect.swift in Sources */,
 				D8EE286E1E725CFC0065870A /* LoginViewController.swift in Sources */,

@@ -43,6 +43,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        
 //        self.window!.makeKeyAndVisible()
 //        
+        
+        //to set the user data free
+        let appDomain = Bundle.main.bundleIdentifier!
+        UserDefaults.standard.removePersistentDomain(forName: appDomain)
+        UserDefaults.standard.synchronize()
+        // 建立資料表
+        let myUserDefaults = UserDefaults.standard
+        let dbInit = myUserDefaults.object(forKey: "dbInit") as? Int
+        if dbInit == nil {
+            let dbFileName = "sqlite3.db"
+            let db = SQLiteConnect(file: dbFileName)
+            if let myDB = db {
+                let result = myDB.createTable("records", columnsInfo: [
+                    "id integer primary key autoincrement",
+                    "storyContent text",
+                    "storyTitle text",
+                    "monthDay text",
+                    "createDate text",
+                    "createTime DateTime"
+                    ])
+                
+                if result {
+                    myUserDefaults.set(1, forKey: "dbInit")
+                    myUserDefaults.set(dbFileName, forKey: "dbFileName")
+                    myUserDefaults.synchronize()
+                }
+            }
+        }
+        
+        // 設定 UITableViewCell 預設底色
+        UITableViewCell.appearance().backgroundColor = UIColor.init(red: 0.88, green: 0.83, blue: 0.73, alpha: 1)
         return true
 
     }
